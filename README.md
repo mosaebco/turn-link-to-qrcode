@@ -17,3 +17,9 @@ program well ask you for file path that contains links,
 and it asks for file size and DPI of pictures.
 
 finally it create your QR codes under output directory.
+
+
+## Export 
+```shell
+PyInstaller main.py --name turn-link-to-qrcode -D -c --icon icon.ico
+```
